@@ -31,7 +31,7 @@
                 echo "<td>$row[keterangan]</td>";
                 echo "<td>$row[harga]</td>";
                 echo "<td>$row[jumlah]</td>";
-                echo "<td><a href ='prosesEditProduk.php?id=$row[id]'>Edit</a>
+                echo "<td><a href ='formEditProduk.php?id=$row[id]'>Edit</a>
                 <a href ='prosesDeleteProduk.php?id=$row[id]'>Delete</a></td>";
 
             $no++;
